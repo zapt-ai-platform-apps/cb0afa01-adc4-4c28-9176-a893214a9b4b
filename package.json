@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "aviary-app",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "GDPR-first work management suite for creative & tech SMEs",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -10,16 +10,38 @@
         "start": "vite --host"
     },
     "dependencies": {
+        "@aws-sdk/client-s3": "^3.540.0",
+        "@aws-sdk/s3-request-presigner": "^3.540.0",
+        "@headlessui/react": "^1.7.18",
+        "@heroicons/react": "^2.1.1",
         "@sentry/browser": "^8.41.0",
+        "@sentry/node": "^8.54.0",
+        "@tanstack/react-query": "^5.40.0",
+        "@zapt/zapt-js": "^1.0.29",
+        "bcryptjs": "^2.4.3",
+        "clsx": "^2.1.0",
+        "date-fns": "^3.6.0",
+        "drizzle-orm": "^0.33.6",
+        "jsonwebtoken": "^9.0.2",
+        "nanoid": "^5.0.6",
+        "postgres": "^3.4.5",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-beautiful-dnd": "^13.1.1",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.51.2",
+        "react-hot-toast": "^2.4.1",
+        "react-router-dom": "^6.22.3",
+        "recharts": "^2.12.3",
+        "tailwind-merge": "^2.2.1",
+        "zod": "^3.22.4"
     },
     "devDependencies": {
+        "@sentry/vite-plugin": "^2.23.0",
         "@vitejs/plugin-react": "^4.3.4",
         "autoprefixer": "^10.4.20",
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.13",
         "vite": "^5.4.7",
-        "@sentry/vite-plugin": "^2.23.0"
+        "vitest": "^1.9.3"
     }
 }
